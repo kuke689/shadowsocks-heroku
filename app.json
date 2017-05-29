@@ -1,0 +1,23 @@
+{
+  "name": "shadowsocks-heroku",
+  "scripts": {
+  },
+  "env": {
+    "KEY": {
+      "required": true
+    },
+    "METHOD": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
